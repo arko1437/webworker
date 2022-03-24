@@ -12,11 +12,7 @@ onmessage= function(e)
     if(!Number.isNaN(r))
     {
     postMessage(r);
-    
-    
     }
     setTimeout("timedCount()",600);
   }
-
-  
   timedCount();
